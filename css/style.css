@@ -1,0 +1,284 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #282828;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.header__list a {
+    font-family: 'bold';
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFF;
+}
+
+.shop {
+    display: flex;
+    gap: 25px;
+}
+
+.banner {
+    position: relative;
+    right: 0;
+    top: 0;
+    height: 700px;
+}
+
+.banner__bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner__desc {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 51px;
+
+
+
+}
+
+.banner__h {
+    font-family: 'prostoone';
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #FFF;
+}
+
+.banner__link {
+    background: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 13px 45px;
+    font-family: 'regular';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    max-width: 200px;
+    position: relative;
+}
+
+.img__btn {
+    font-family: 'regular';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    height: 100%;
+    position: absolute;
+    right: 25px;
+    top: 18px;
+    height: 45%;
+    max-height: 15px;
+
+}
+
+.airpod {
+    background: #151515;
+    padding-top: 20px;
+}
+
+.airpod__wrap {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.airpod__p {
+    font-family: 'regular';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 535px;
+    width: 100%;
+}
+
+.blackpods {
+    background: #151515;
+}
+
+.blackpods__wrap {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+.blackpods__p {
+    font-family: 'regular';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 535px;
+    width: 100%;
+}
+
+.onepod {
+    background: #151515;
+}
+
+.onepod__wrap {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+.onepod__wrap-p {
+    font-family: 'bold';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 333px;
+    width: 100%;
+    height: 144px;
+    text-align: right;
+}
+
+.onepod__wrap-sec {
+    font-family: 'bold';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 333px;
+    width: 100%;
+    height: 144px;
+}
+
+.hr {
+    position: absolute;
+    width: 61px;
+    height: 1px;
+    left: 510px;
+    background: #C4C4C4;
+}
+
+.hr-s {
+    position: absolute;
+    width: 61px;
+    height: 1px;
+    right: 545px;
+    background: #C4C4C4;
+}
+
+.cards {
+    background: #151515;
+    padding-top: 80px;
+}
+
+.cards__wrap {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    max-width: 255px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    margin-bottom: 65px;
+}
+
+.cards__item-h {
+    font-family: 'bold';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+.cards__item-p {
+    font-family: 'medium';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 10px;
+}
+
+.cards__item-btn {
+    max-width: 161px;
+    width: 100%;
+    background: #151515;
+    height: 34px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'bold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+}
+
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer__wrap {
+    display: flex;
+    gap: 30px;
+    height: 215px;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.pay{
+    display: flex;
+    gap: 30px;
+}
