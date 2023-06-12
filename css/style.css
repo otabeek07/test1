@@ -36,8 +36,6 @@
     font-family: 'bold';
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0em;
-    text-align: right;
     color: #FFF;
 }
 
@@ -281,4 +279,12 @@
 .pay{
     display: flex;
     gap: 30px;
+    align-items: center;
+}
+
+.footer__item a{
+    font-family: 'bold';
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFF;
 }

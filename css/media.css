@@ -1,6 +1,139 @@
+@media screen and (max-width:991px) {
+    .banner {
+        height: 540px;
 
+    }
 
+    .banner__desc {
+        gap: 60px;
+    }
+
+    .airpod__wrap {
+        gap: 30px;
+
+    }
+
+    .airpod__p {
+        max-width: 540px;
+        width: 100%;
+        height: auto;
+    }
+
+    .airpod__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .cards{
+        gap: 30px;
+    }
+    .cards__wrap{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__wrap{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
 
 @media screen and (max-width:768px) {
-    
+    .header__wrap {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:720px) {
+    .onepod__wrap {
+        gap: 20px;
+    }
+    .onepod__wrap-p{
+        max-width: 520px;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+    }
+    .onepod__wrap-img img {
+        max-width: 500px;
+        width: 100%;
+        height: 100%;
+        
+            }
+            .onepod__wrap-sec{
+                max-width: 520px;
+                width: 100%;
+                height: auto;
+                font-size: 10px;
+            }
+
+
+}
+
+@media screen and (max-width:661px) {
+    .banner__h {
+        text-align: center;
+    }
+
+    .blackpods__wrap {
+        gap: 30px;
+    }
+
+    .blackpods__wrap-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .blackpods__p {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media screen and (max-width:640px) {
+    .banner__desc {
+        padding: 0 15px;
+
+    }
+
+    .banner__h {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .header__list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner {
+        height: 440px;
+
+    }
+
+    .banner__desc {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .banner__h {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .banner__link {
+        font-size: 25px;
+        max-width: 200px;
+        width: 100%;
+    }
 }
